@@ -61,9 +61,11 @@ textarea::placeholder {
 }
 .ui-btn-more a {
   display: block;
-  width: 100%;
-  background: #ffed89;
-  color: #6B6D08;
+  margin: 0 auto;
+  width: 96%;
+  background: #ca282f;
+  border-radius: 8px;
+  color: #fff;
   font-size: 1.6rem;
   text-align: center;
   height: 44px;
@@ -139,7 +141,7 @@ input:-ms-input-placeholder {
   width: 1.7rem;
   height: 44px;
   text-indent: -99999px;
-  background: url(../../images/icon-usercentent.png) center center no-repeat;
+  background: url(../../images/btn-menu.png) center center no-repeat;
   background-size: contain;
   z-index: 999;
   display: inline-block;
@@ -152,12 +154,12 @@ input:-ms-input-placeholder {
   width: 1.7rem;
   height: 44px;
   text-indent: -99999px;
-  background: url(../../images/icon-search.png) center center no-repeat;
+  background: url(../../images/btn-search.png) center center no-repeat;
   background-size: contain;
   z-index: 999;
   display: inline-block;
   position: absolute;
-  right: 10px;
+  right: 44px;
   top: 50%;
   margin-top: -24px;
 }
@@ -377,4 +379,99 @@ input:-ms-input-placeholder {
   height: 5rem;
   background: url(../../images/ic-advise.png) top center no-repeat;
   background-size: contain;
+}
+.m-list li {
+  margin: 1rem 0.6rem;
+  background: #fff;
+  border-radius: 8px;
+}
+.m-list li h4 {
+  text-align: center;
+  color: #678824;
+  font-size: 1.8rem;
+}
+.m-list p {
+  font-size: 1.2rem;
+}
+.m-list-nor {
+  display: block;
+  padding: 0.2rem 1rem;
+}
+.m-list-nor .m-li-tit {
+  font-size: 1.4rem;
+  color: #55524e;
+  margin-right: 8px;
+}
+.m-list-nor .m-w-50 {
+  display: block;
+  width: 50%;
+}
+.m-list-hov {
+  display: block;
+  padding: 0.2rem 1rem;
+}
+.m-list-hov .m-li-tit {
+  font-size: 1.4rem;
+  color: #55524e;
+  margin-right: 8px;
+}
+.m-list-hov a {
+  width: 3rem;
+  height: 3rem;
+  text-indent: -99999px;
+  background: url(../../images/btn-next.png) center center no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 998;
+  display: inline-block;
+  right: 10px;
+  top: 36%;
+}
+.u-info {
+  display: block;
+  background: #fff;
+  border-radius: 8px;
+  margin: 1rem 0.6rem;
+  padding: 1rem 1rem;
+}
+.u-info li {
+  margin-bottom: 1rem;
+}
+.u-info li > p {
+  font-size: 1.2rem;
+}
+.u-info li .info-tit {
+  font-size: 1.6rem;
+  color: #55524e;
+  margin-right: 8px;
+}
+.u-search {
+  display: block;
+  overflow: hidden;
+}
+.u-search .ui-form-item {
+  margin-bottom: 1rem;
+}
+.u-search label {
+  padding-right: 10px;
+}
+.u-search input {
+  display: inline-block;
+  width: 70%;
+  padding-left: 4px;
+  background: #fff;
+  height: 3rem;
+  line-height: 3rem;
+  border-radius: 5px;
+  font-size: 1.4rem;
+}
+.u-search .ui-select {
+  margin-right: -6px;
+}
+.u-search select {
+  background: #fff;
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 1.4rem;
 }

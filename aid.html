@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <title>长者老人中心</title>
+  <link rel="stylesheet" href="css/frozen.css">
+  <link rel="stylesheet" href="css/swiper.3.2.0.min.css">
+  <link rel="stylesheet" href="css/css/mian.css">
+  </head>
+<body ontouchstart="">
+  <header class="ui-header ui-header-positive">
+    <i class="ui-icon-return" onclick="history.back()"></i>
+    <h1><span class="u-logo">急救记录</span></h1>
+    <a class="u-icon-search" href="search.html">搜索</a>
+    <a class="u-user-centent" href="login.html">个人中心</a>
+  </header>
+  <section class="ui-container touchweb-page">
+    <div class="m-list">
+        <ul class="ui-list">
+            <li class="m-list-hov">
+                <div class="ui-form ui-list-info">
+                    <h4 class="ui-nowrap">李晓杰</h4>
+                    <div class="ui-nowrap">
+                        <p><span class="m-li-tit">急救情况</span><span>良好</span></p>
+                    </div>
+                    <div class="ui-nowrap">
+                        <p><span class="m-li-tit">急救结果</span><span>良好</span></p>
+                    </div>
+                    <div class="ui-nowrap">
+                        <p><span class="m-li-tit">开始时间</span><span>2015/12/15/23:45:12</span></p>
+                    </div>
+                    <div class="ui-nowrap">
+                        <p><span class="m-li-tit">结束时间</span><span>2015/12/16/02:45:12</span></p>
+                    </div>
+                </div>
+                <a href="list-info.html" class="u-icon-next"></a>
+            </li>
+            <li class="m-list-hov">
+                <div class="ui-form ui-list-info">
+                    <h4 class="ui-nowrap">李晓杰</h4>
+                    <div class="ui-nowrap">
+                        <p><span class="m-li-tit">急救情况</span><span>良好</span></p>
+                    </div>
+                    <div class="ui-nowrap">
+                        <p><span class="m-li-tit">急救结果</span><span>良好</span></p>
+                    </div>
+                    <div class="ui-nowrap">
+                        <p><span class="m-li-tit">开始时间</span><span>2015/12/15/23:45:12</span></p>
+                    </div>
+                    <div class="ui-nowrap">
+                        <p><span class="m-li-tit">结束时间</span><span>2015/12/16/02:45:12</span></p>
+                    </div>
+                </div>
+                <a href="list-info.html" class="u-icon-next"></a>
+            </li>
+            <li class="m-list-hov">
+                <div class="ui-form ui-list-info">
+                    <h4 class="ui-nowrap">李晓杰</h4>
+                    <div class="ui-nowrap">
+                        <p><span class="m-li-tit">急救情况</span><span>良好</span></p>
+                    </div>
+                    <div class="ui-nowrap">
+                        <p><span class="m-li-tit">急救结果</span><span>良好</span></p>
+                    </div>
+                    <div class="ui-nowrap">
+                        <p><span class="m-li-tit">开始时间</span><span>2015/12/15/23:45:12</span></p>
+                    </div>
+                    <div class="ui-nowrap">
+                        <p><span class="m-li-tit">结束时间</span><span>2015/12/16/02:45:12</span></p>
+                    </div>
+                </div>
+                <a href="list-info.html" class="u-icon-next"></a>
+            </li>
+            <li class="m-list-hov">
+                <div class="ui-form ui-list-info">
+                    <h4 class="ui-nowrap">李晓杰</h4>
+                    <div class="ui-nowrap">
+                        <p><span class="m-li-tit">急救情况</span><span>良好</span></p>
+                    </div>
+                    <div class="ui-nowrap">
+                        <p><span class="m-li-tit">急救结果</span><span>良好</span></p>
+                    </div>
+                    <div class="ui-nowrap">
+                        <p><span class="m-li-tit">开始时间</span><span>2015/12/15/23:45:12</span></p>
+                    </div>
+                    <div class="ui-nowrap">
+                        <p><span class="m-li-tit">结束时间</span><span>2015/12/16/02:45:12</span></p>
+                    </div>
+                </div>
+                <a href="list-info.html" class="u-icon-next"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="ui-btn-more">
+      <a href="javascript:void()" id="ui-btn-more">加载更多</a>
+    </div>
+  </section>
+  <script src="js/lib/zeptojs/zepto.min.js"></script>
+  <script src="js/frozen.js"></script>
+  <script type="text/javascript">
+    $("#ui-btn-more").tap(function(){
+        var el=$.loading({
+            content:'疯狂加载中...',
+        })
+        setTimeout(function(){
+            el.loading("hide");
+        },2000);
+        el.on("loading:hide",function(){
+            console.log("loading hide");
+        });
+    });
+    </script>
+</body>
+</html>
