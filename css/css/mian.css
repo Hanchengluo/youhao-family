@@ -457,21 +457,135 @@ input:-ms-input-placeholder {
 }
 .u-search input {
   display: inline-block;
-  width: 70%;
   padding-left: 4px;
+  width: 70%;
   background: #fff;
   height: 3rem;
   line-height: 3rem;
   border-radius: 5px;
   font-size: 1.4rem;
+  color: #7aac38;
 }
 .u-search .ui-select {
   margin-right: -6px;
+  width: 70%;
 }
 .u-search select {
+  display: inline-block;
   background: #fff;
   border-radius: 5px;
+  width: 100%;
   height: 3rem;
   line-height: 3rem;
   font-size: 1.4rem;
+  color: #7aac38;
+}
+.u-search .time-input input {
+  width: 7rem !important;
+  margin-left: 0;
+  color: #7AAC38;
+}
+.u-search .time-input span {
+  margin: 0 10px;
+}
+.u-search .mgl95 {
+  margin-left: 95px;
+}
+.u-search .btn-search a {
+  background: #ca282f;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  display: block;
+  width: 96%;
+  margin: 0 auto;
+  height: 44px;
+  line-height: 44px;
+  border: 0;
+  text-align: center;
+}
+.bghuang {
+  background: #fbf7eb;
+}
+.logo-lg {
+  text-align: center;
+  margin: 1.6rem auto;
+}
+.logo-lg img {
+  width: 40%;
+  height: 40%;
+}
+.logo-lg p {
+  font-size: 3rem;
+}
+.login {
+  margin: 10px auto;
+  width: 96%;
+}
+.login .login-item {
+  height: 44px;
+  line-height: 44px;
+  background: #84b845;
+  display: block;
+  margin: 10px auto;
+  font-size: 1.6rem;
+  border-radius: 8px;
+}
+.login .login-item label {
+  border-radius: 8px;
+  display: block;
+  width: 44px;
+  height: 44px;
+}
+.login .login-item input {
+  background: none;
+  display: inline-block;
+  padding-left: 8px;
+  color: #fff;
+  height: 44px;
+  line-height: 44px;
+  border: 0;
+}
+.login .login-item ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #fff !important;
+}
+.login .login-item :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff !important;
+}
+.login .login-item ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff !important;
+}
+.login .login-item :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #fff !important;
+}
+.login .login-item .icon-name {
+  background: #7aa745 url(../../images/icon-name.png) center no-repeat;
+  background-size: 50%;
+}
+.login .login-item .icon-key {
+  background: #7aa745 url(../../images/icon-key.png) center no-repeat;
+  background-size: 50%;
+}
+.login .login-btn a {
+  background: #ca282f;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  display: block;
+  margin: 10px auto;
+  height: 44px;
+  line-height: 44px;
+  border: 0;
+  text-align: center;
+}
+.login .login-link {
+  margin-top: 8px;
+}
+.login .login-link a {
+  font-size: 1.6rem;
+  color: #7aac38;
 }
